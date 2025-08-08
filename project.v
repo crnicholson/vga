@@ -21,7 +21,7 @@ module tt_um_vga_example(
   wire [9:0] pix_x;
   wire [9:0] pix_y;
 
-  // Tiny Tapeout VGA PMOD pin mapping
+  // Tiny Tapeout VGA PpppppMOD pin mapping
   assign uo_out = {hsync, B[0], G[0], R[0], vsync, B[1], G[1], R[1]};
 
   // Unused outputs assigned to 0.
