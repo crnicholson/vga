@@ -11,7 +11,7 @@ module tt_um_vga_example(
   input  wire       rst_n     // reset_n - low to reset
 );
 
-  // bsdflkjsdflGA 
+  // bsdflkjsdflGA skdjfksdjfhksjdhf
   wire hsync;
   wire vsync;
   wire [1:0] R;
