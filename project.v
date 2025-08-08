@@ -12,7 +12,7 @@ module tt_um_vga_example(
 );
 
   // VGA signals
-  wire hsync;
+  wire h sync;
   wire vsync;
   wire [1:0] R;
   wire [1:0] G; 
