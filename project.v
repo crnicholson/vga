@@ -11,9 +11,8 @@ module tt_um_vga_example(
   input  wire       rst_n     // reset_n - low to reset
 );
 
-  // VGA signals
-  wire h sync;
-  wire v  sync;
+  wire hsync;
+  wire vsync;
   wire [1:0] R;
   wire [1:0] G; 
   wire [1:0] B;
